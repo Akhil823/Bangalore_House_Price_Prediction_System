@@ -6,4 +6,4 @@ First, I have performed data cleaning such as handling null values, outlier remo
 
 Then, used one hot encoding to encode names of different locations. 
 
-For model selection I have used pycaret to know which model gives us the best result. The best result was obtained from bayesian ridge (as given by pycaret). Hence, at last I applied Bayesian Ridge Regression to predict price of a house in Bangalore based on location, BHK and bathroom.
+For model selection I have used pycaret to know which model gives us the best result. The best result was obtained from ridge regression (as given by pycaret). Hence, at last I applied Ridge Regression to predict price of a house in Bangalore based on location, BHK and bathroom.
